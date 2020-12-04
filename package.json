@@ -1,5 +1,5 @@
 {
-  "name": "README_Generator",
+  "name": "ls",
   "version": "1.0.0",
   "description": "This is a README Generator that will prompt you for a series of inputs and use them to generate a proffessional README.md file for you so you can focus on more serious business.",
   "main": "index.js",
@@ -9,7 +9,7 @@
   "author": "Nick Menotti",
   "license": "MIT",
   "dependencies": {
-    "inquirer": "^6.3.1"
+    "inquirer": "^6.5.2"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,6 @@
   "bugs": {
     "url": "https://github.com/Nmenotti20/README_Generator/issues"
   },
-  "homepage": "https://github.com/Nmenotti20/README_Generator#readme"
+  "homepage": "https://github.com/Nmenotti20/README_Generator#readme",
+  "devDependencies": {}
 }
