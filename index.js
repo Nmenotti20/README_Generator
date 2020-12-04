@@ -44,35 +44,40 @@ const questions = [
 },
 {
     type: "input",
-        name: "",
-        message: "?"
+        name: "usage",
+        message: "Please provide instructions on how to use your project."
 },
 {
     type: "input",
-        name: "",
-        message: "?"
+        name: "contributor",
+        message: "Tell other developers how they can contribute to this project."
 },
 {
     type: "input",
-        name: "",
-        message: "?"
+        name: "userStory",
+        message: "Provide a USER STORY for this application?"
 },
 {
     type: "input",
-        name: "",
-        message: "?"
+        name: "version",
+        message: "Which version of the application is this?"
 },
 
 ];
 
 // function to write README file
-function writeToFile('./README.md', data) {
-}
+// function writeToFile('./README.md', input) {
+// }
 
 // function to initialize program
 function init() {
-
-}
+    inquirer.prompt(questions).then((answers)=> {
+        console.log("This is what you answered...", answers);
+        const fs = require('fs');
+        fs.appendFile('README.md', generateMarkdown(answers), (err) =>
+        err ? console.log(err) ; console.log ('Your README.md content has been generated!')
+        )
+    })};
 
 // function call to initialize program
 init();
