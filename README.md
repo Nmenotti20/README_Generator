@@ -1,12 +1,12 @@
 
-  ![GitHub license](https://img.shields.io/badge/license-sdofih-blue.svg)
+  ![GitHub license](https://img.shields.io/badge/license- template for producing a quality README.md file by prompting the user for input used to generate the file content..  -blue.svg)
 
-  # woefnhw
-  **Version onhdsfg**
+  # README_Generator
+  **Version **
   
   ## Table of Contents 
 
-  *1. [Project Description](#Project Description)
+  *1. [Project Description](#Description)
   *2. [Installation](#Installation)
   *3. [Usage](#Usage)
   *4. [Credits](#Credits)
@@ -15,26 +15,26 @@
 
   ### Project Description 
   
-  sdofnhj
+  This project creates a command line application that dynamically creates a 
 
   
   #### User Story 
   
-  obnsdef
+  
   
   
   ### Installation 
   
-  sdonhf
+  
   
   
   ### Command to Test 
   
-  oihnwrg
+  
 
   ### Usage
 
-  ikojubrf
+  
 
   ### Credits
  
@@ -43,18 +43,15 @@
 
   ### License
   
-  sdofih
+   template for producing a quality README.md file by prompting the user for input used to generate the file content..  
 
   
 * [License](#license)
 
 
 
-
-
-
-
-&copy; 
-
-
+  &copy; GitHub User Name: Nmenotti20
+  [GitHub Repo link for this Project:](https://github.com/Nmenotti20/README_Generator.git)
+    
+  Please contact me for addtional information: nmenotti@cox.net
 

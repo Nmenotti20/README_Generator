@@ -4,6 +4,7 @@ function generateMarkdown(answers) {
   ![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
   # ${answers.title}
+  
   **Version ${answers.version}**
   
   ## Table of Contents 
@@ -50,13 +51,15 @@ function generateMarkdown(answers) {
   \n* [License](#license)\n
 
 
+  <hr>
+  <p align='center'><i>
+  Please contact me for addtional information:
+  <br></br>
 
-
-
-
-&copy; 
-
-
+  GitHub User Name: ${answers.github}
+  [GitHub Repo:](https://github.com/Nmenotti20/README_Generator.git)
+  Email: ${answers.email}
+  </i></p>
 
 `;
 }
