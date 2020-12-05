@@ -91,7 +91,7 @@ function init() {
     inquirer.prompt(questions).then((answers)=> {
         console.log("This is what you answered...", answers);
         const fs = require('fs');
-        fs.appendFile('README.md', generateMarkdown(answers), (err) =>
+        fs.writeFile('README.md', generateMarkdown(answers), (err) =>
         err ? 
         console.log(err) : console.log ('Your README.md content has been generated!')
         )
