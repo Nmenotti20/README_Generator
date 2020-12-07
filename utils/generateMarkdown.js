@@ -31,7 +31,7 @@ ${answers.userStory}
 
 #### Project Links:
 
-[GitHub Repo for Nmenotti20/README_Generartor](https://github.com/${answers.username}/${answers.repositoryName})<br>
+[GitHub Repo](https://github.com/${answers.username}/${answers.repositoryName})<br>
 
 [Video Demo](${answers.videoDemo})<br>
 
@@ -49,7 +49,7 @@ ${answers.usage}
 
 Special thanks to the following resources that inspired this project:
 
-${answers.credits}
+${answers.credit}
 
 ### Command to Test
 
