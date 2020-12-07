@@ -21,7 +21,12 @@ This project creates a command line application that dynamically creates a templ
 #### User Story
   
 In order to be able to focus more of my time on developing, I want to have a README Generator populate and format quality README.md files for my projects.
-  
+
+#### Project Links:
+
+[GitHub Repo for Nmenotti20/README_Generator](https://github.com/Nmenotti20/README_Generator.git)
+[Video Demonstration](https://)
+
 ### Installation
   
 node index.js
@@ -33,7 +38,7 @@ Navigate via command-line to the index.js file. From the command-line, input the
 
 Special thanks to the following resources that inspired this project:
 
-[How to Add Badges to a GitHub Repository](https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a), [DevMarketer](https://youtu.be/0WfDe51pUU0), [Programming with Mosh](https://youtu.be/PFmuCDHHpwk), [imbingz/Github-Readme-Template](https://github.com/imbingz/Github-Readme-Template), [Jruuuu/readmegen] (https://github.com/Jruuuu/readmegen)
+[How to Add Badges to a GitHub Repository](https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a), [DevMarketer](https://youtu.be/0WfDe51pUU0), [Programming with Mosh](https://youtu.be/PFmuCDHHpwk), [imbingz/Github-Readme-Template](https://github.com/imbingz/Github-Readme-Template), [Jruuuu/readmegen](https://github.com/Jruuuu/readmegen)
 
 ### Command to Test
 
