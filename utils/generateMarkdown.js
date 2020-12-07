@@ -63,7 +63,7 @@ Copyright © 2020 [${answers.myName}]<br>
 
 <p align='center'><i>
 Please contact me for additional information:<br>
-[GitHub Repo]((https://github.com/${answers.username}/${answers.repositoryName})<br>
+[GitHub Repo]((https://github.com/${answers.github}/${answers.repositoryName})<br>
 [Email:](${answers.email})</i></p>
 
 `;
