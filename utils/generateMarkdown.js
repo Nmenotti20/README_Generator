@@ -2,81 +2,75 @@
 function generateMarkdown(answers) {
   return `
 
-![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
-
 # ${answers.title.toUpperCase()}
 
-[![github-followers](https://img.shields.io/github/followers/${answers.username
-  
-  .toLowerCase()}?label=Follow&logoColor=yellow&style=social)](https://github.com/${answers.github.toLowerCase()})
-[![project-languages-used](https://img.shields.io/github/languages/count/${answers.github.toLowerCase()}/${answers.repositoryName}?color=important)](https://github.com/${answers.github.toLowerCase()}/${answers.repositoryName})
-[![project-top-language](https://img.shields.io/github/languages/top/${answers.github.toLowerCase()}/${answers.repositoryName}?color=blueviolet)](https://github.com/${answers.github.toLowerCase()}/${answers.repositoryName})
-[![license](https://img.shields.io/badge/License-${answers.license
-  .toUpperCase()
-  .split('-')
-  .join('v')}-brightgreen.svg)](https://choosealicense.com/licenses/${answers.license}/)
+[![github-follow](https://img.shields.io/github/followers/${answers.username}?label=Follow&logoColor=purple&style=social)](https://github.com/${answers.username})
 
-####Version 
-  
-${answers.version}
+[![project-top-language](https://img.shields.io/github/languages/top/${answers.username}/${answers.repositoryName}?color=yellow)](https://github.com/${answers.username}/${answers.repositoryName})
+
+[![license](https://img.shields.io/badge/License-${answers.license}-brightgreen.svg)](https://choosealicense.com/licenses/${answers.license}/)
+
+##### Version ${answers.version}
 
 ## Table of Contents 
 
-* [Project Description](#Description)
-* [Installation](#Installation)
-* [Command to Test](#Test)
-* [Usage](#Usage)
-* [Credits](#Credits)
-* [License](#License) 
+1. [Project Description](#Description)
+2. [Installation](#Installation)
+3. [Usage](#Usage)
+4. [Credits](#Credits)
+5. [Command to Test](#Test)
+6. [License](#License) 
 
-### Project Description 
-  
+### Project Description
+
 ${answers.description}
 
-#### User Story 
-  
+#### User Story
+
 ${answers.userStory}
 
 #### Project Links:
 
-*INSERT PROJECT LINKS HERE*
+[GitHub Repo for Nmenotti20/README_Generartor](https://github.com/${answers.username}/${answers.repositoryName})<br>
 
-#### Sample Images
+[Video Demo](${videoDemo})<br>
 
-*INSERT SAMPLE IMAGES OF YOUR PROJECT HERE*
-  
-### Installation 
-  
+[Additional Links](${addLink})<br>
+
+${screenshot}
+
+### Installation
+
 ${answers.installation}
   
-### Command to Test 
-  
-${answers.test}
-
 ### Usage
 
 ${answers.usage}
 
 ### Credits
- 
+
+Special thanks to the following resources that inspired this project:
+
 ${answers.credits}
 
+### Command to Test
+
+${answers.test}
+
 ### License
-  
-${answers.license}
 
-\n* [License](#license)\n
+This project is [${answers.license}](https://choosealicense.com/licenses/${answers.license}) licensed.<br>
 
+[![license](https://img.shields.io/badge/License-${answers.license}-brightgreen.svg)](https://choosealicense.com/licenses/${answers.license}/)
 
 <hr>
 <p align='center'><i>
-Please contact me for addtional information:
+Copyright © 2020 [${answers.myName}]<br> 
 
-
-  GitHub User Name: ${answers.github}
-  [GitHub Repo:](https://github.com/Nmenotti20/README_Generator.git)
-  Email: ${answers.email}
-  </i></p>
+<p align='center'><i>
+Please contact me for additional information:<br>
+[GitHub Repo]((https://github.com/${answers.username}/${answers.repositoryName})<br>
+[Email:](${answers.email})</i></p>
 
 `;
 }
