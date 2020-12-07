@@ -24,7 +24,7 @@ In order to be able to focus more of my time on developing, I want to have a REA
 
 #### Project Links:
 
-[GitHub Repo for Nmenotti20/README_Generator](https://github.com/Nmenotti20/README_Generator.git)
+[GitHub Repo for Nmenotti20/README_Generator](https://github.com/Nmenotti20/README_Generator.git)<br>
 [Video Demonstration](https://)
 
 ### Installation
