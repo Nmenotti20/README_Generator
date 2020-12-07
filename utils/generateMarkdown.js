@@ -29,9 +29,9 @@ ${answers.userStory}
 
 [GitHub Repo](https://github.com/${answers.github}/${answers.repositoryName})<br>
 
-![Video Demo](\\${answers.videoDemo})<br>
+![Video Demo](/${answers.videoDemo})<br>
 
-![Additional Links](\\${answers.addLink})<br>
+![Additional Links](/${answers.addLink})<br>
 
 ### Installation
 
