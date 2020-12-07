@@ -61,6 +61,6 @@ Copyright © 2020 [Nick Menotti]<br>
 
 <p align='center'><i>
 Please contact me for additional information:<br>
-[GitHub Repo]((https://github.com/undefined/README_Generator)<br>
+[GitHub Repo]((https://github.com/Nmenotti20/README_Generator)<br>
 [Email:](nmenotti@cox.net)</i></p>
 
