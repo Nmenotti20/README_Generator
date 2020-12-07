@@ -27,9 +27,9 @@ In order to be able to focus more of my time on developing, I want to have a REA
 
 [GitHub Repo](https://github.com/Nmenotti20/README_Generator)<br>
 
-[Video Demo](assets\demo.gif)<br>
+![Video Demo](/assets\demo.gif)<br>
 
-[Additional Links](assets\image.jpg)<br>
+![Additional Links](/assets\image.jpg)<br>
 
 ### Installation
 
