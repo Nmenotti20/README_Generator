@@ -7,54 +7,55 @@ const generateMarkdown = require("./utils/generateMarkdown")
 // array of questions for user
 const questions = [
     
-    // My Full Name
+    // User Full Name
     {
     type: 'input',
         name: 'myName',
 		message: 'Enter your first and last name',
 	},   
 
-    // GitHub username
-{
-    type: "input",
-        name: "github",
-        message: "What's your GITHUB USERNAME?"
-},
+    // User Email
+    {
+        type: "input",
+            name: "email",
+            message: "What's your EMAIL address?"
+    },
+    
+   // GitHub username
+    {
+        type: "input",
+            name: "github",
+            message: "What's your GITHUB USERNAME?"
+    },
 
-{
     // Github Repository Name
-    type: 'input',
-    message: 'Enter the name of Github repository for your project.',
-    name: 'repositoryName',
-},
+    {
+        type: 'input',
+            message: 'Enter the name of Github repository for your project.',
+            name: 'repositoryName',
+    },
 
-    // Email
-{
-    type: "input",
-        name: "email",
-        message: "What's your EMAIL address?"
-},
 
     // Title of project
-{
-    type: "input",
-        name: "title",
-        message: "What's the TITLE of your project?"
-},
+    {
+        type: "input",
+            name: "title",
+            message: "What's the TITLE of your project?"
+    },
 
-   // Which version of the Project is this?
-   {
-    type: "input",
-        name: "version",
-        message: "Which version of the application is this?"
-},
+    // Which version of the Project is this?
+    {
+        type: "input",
+            name: "version",
+            message: "Which version of the application is this?"
+    },
 
     // Desciption of project
-{
-    type: "input",
-        name: "description",
-        message: "Please provide a brief DESCRIPTION of your project?"
-},
+    {
+        type: "input",
+            name: "description",
+            message: "Please provide a brief DESCRIPTION of your project?"
+    },
 
     // User Story
     {
@@ -63,6 +64,19 @@ const questions = [
             message: "Provide a USER STORY for this application?"
     },
     
+    // Project Links
+    {
+        type: "input",
+            name: "videoDemo",
+            message: "Provide the relative file path for your Video Demo here: "
+    },
+
+    {
+        type: "input",
+            name: "addLink",
+            message: "Provide the relative file path for an additional project link here: "
+    },
+
     // Command to initiate installation
     {
         type: "input",
@@ -70,13 +84,20 @@ const questions = [
             message: "What is the command to initiate INSTALLATION?"
     },
 
-    // Instructions on how to use
+    // Usage instructions
     {
         type: "input",
             name: "usage",
-            message: "Please provide instructions on how to use your project."
+            message: "Please provide instructions on how to use your app."
     },
     
+    // Credits for rescources to user project
+    {
+        type: "input",
+            name: "credit",
+            message: "Paste the URL link here to give credit to rescources that went into your project: "
+    },
+
     // Command to initiate test
     {
         type: "input",
@@ -85,30 +106,23 @@ const questions = [
     },
 
     // License
-{
-    type: "input",
-        name: "license",
-        message: "Which LICENSE are you using?",
-        choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
-},
+    {
+        type: "input",
+            name: "license",
+            message: "Which LICENSE are you using?",
+            choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
+    },
 
-    // How to contribute
-{
-    type: "input",
-        name: "contributor",
-        message: "Tell other developers how they can contribute to this project."
-},
 ];
-
 // function to write README file
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((answers)=> {
         console.log("This is what you answered...", answers);
         const fs = require('fs');
-        fs.writeFile('README.md', generateMarkdown(answers), (err) =>
+        fs.writeFile('OUTPUT.md', generateMarkdown(answers), (err) =>
         err ? 
-        console.log(err) : console.log ('Your README.md content has been generated!')
+        console.log(err) : console.log ('SUCCESS!!! Your README.md content has been generated to the OUTPUT.md file!')
         )
     })};
 

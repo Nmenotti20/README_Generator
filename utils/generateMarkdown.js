@@ -33,11 +33,9 @@ ${answers.userStory}
 
 [GitHub Repo for Nmenotti20/README_Generartor](https://github.com/${answers.username}/${answers.repositoryName})<br>
 
-[Video Demo](${videoDemo})<br>
+[Video Demo](${answers.videoDemo})<br>
 
-[Additional Links](${addLink})<br>
-
-${screenshot}
+[Additional Links](${answers.addLink})<br>
 
 ### Installation
 
