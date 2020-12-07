@@ -45,5 +45,9 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <hr>
 <p align='center'><i>
-Copyright © 2020 [Nick Menotti](https://github.com/Nmenotti20)
+Copyright © 2020 Nick Menotti<br></br> 
+
+Please contact me for additional information:<br>
+(https://github.com/Nmenotti20)<br>
+Email: nmenotti@cox.net
 </i></p>
