@@ -31,7 +31,9 @@ Navigate via command-line to the index.js file. From the command-line, input the
 
 ### Credits
 
-undefined
+Special thanks to the following resources that inspired this project:
+
+[How to Add Badges to a GitHub Repository](https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a), [DevMarketer](https://youtu.be/0WfDe51pUU0), [Programming with Mosh](https://youtu.be/PFmuCDHHpwk), [imbingz/Github-Readme-Template](https://github.com/imbingz/Github-Readme-Template), [Jruuuu/readmegen] (https://github.com/Jruuuu/readmegen)
 
 ### Command to Test
 
@@ -45,9 +47,9 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
 <hr>
 <p align='center'><i>
-Copyright © 2020 Nick Menotti<br></br> 
+Copyright © 2020 Nick Menotti<br> 
 
-<p align='center'><i>
+<p align='center'>
 Please contact me for additional information:<br>
 (https://github.com/Nmenotti20)<br>
 Email: nmenotti@cox.net
