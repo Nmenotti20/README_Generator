@@ -4,11 +4,7 @@ function generateMarkdown(answers) {
 
 # ${answers.title.toUpperCase()}
 
-[![github-follow](https://img.shields.io/github/followers/${answers.username}?label=Follow&logoColor=purple&style=social)](https://github.com/${answers.username})
-
-[![project-top-language](https://img.shields.io/github/languages/top/${answers.username}/${answers.repositoryName}?color=yellow)](https://github.com/${answers.username}/${answers.repositoryName})
-
-[![license](https://img.shields.io/badge/License-${answers.license}-brightgreen.svg)](https://choosealicense.com/licenses/${answers.license}/)
+[![github-follow](https://img.shields.io/github/followers/${answers.username}?label=Follow&logoColor=purple&style=social)](https://github.com/${answers.github}) [![project-top-language](https://img.shields.io/github/languages/top/${answers.github}/${answers.repositoryName}?color=yellow)](https://github.com/${answers.github}/${answers.repositoryName}) [![license](https://img.shields.io/badge/License-${answers.license}-brightgreen.svg)](https://choosealicense.com/licenses/${answers.license}/)
 
 ##### Version ${answers.version}
 

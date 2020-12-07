@@ -2,11 +2,7 @@
 
 # README_GENERATOR
 
-[![github-follow](https://img.shields.io/github/followers/undefined?label=Follow&logoColor=purple&style=social)](https://github.com/undefined)
-
-[![project-top-language](https://img.shields.io/github/languages/top/undefined/README_Generator?color=yellow)](https://github.com/undefined/README_Generator)
-
-[![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/MIT/)
+[![github-follow](https://img.shields.io/github/followers/undefined?label=Follow&logoColor=purple&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/README_Generator?color=yellow)](https://github.com/Nmenotti20/README_Generator) [![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/MIT/)
 
 ##### Version 1.0
 
@@ -47,7 +43,7 @@ Navigate via command-line to the index.js file. From the command-line, input the
 
 Special thanks to the following resources that inspired this project:
 
-https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a/, https://youtu.be/0WfDe51pUU0/, https://youtu.be/PFmuCDHHpwk/, https://github.com/imbingz/Github-Readme-Template/, https://github.com/Jruuuu/readmegen/ 
+https://youtu.be/0WfDe51pUU0/, https://youtu.be/PFmuCDHHpwk/, https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a/, https://github.com/imbingz/Github-Readme-Template/, https://github.com/Jruuuu/readmegen/
 
 ### Command to Test
 
