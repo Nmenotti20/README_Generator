@@ -32,7 +32,7 @@ In order to be able to focus more of my time on developing, I want to have a REA
 node index.js
 ### Usage
 
-Navigate via command-line to the index.js file. From the command-line, input the command "node index.js" and the command-line will prompt you with a series of questions to complete which will be used to generate and fill in your professional README.md file for your project when the questions are completed with the user's input.
+Navigate via command-line to the index.js file. From the command-line, input the command "node index.js" and the command-line will prompt you with a series of questions to complete which will be used to generate and fill in your professional README.md file for your project when the questions are completed with the user's input. Your generated README.md will generate to the OUTPUT.md file.
 
 ### Credits
 
