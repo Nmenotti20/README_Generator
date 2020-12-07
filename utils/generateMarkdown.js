@@ -1,60 +1,77 @@
 // function to generate markdown for README
 function generateMarkdown(answers) {
   return `
-  ![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
-  # ${answers.title}
-  
-  **Version ${answers.version}**
-  
-  ## Table of Contents 
+![GitHub license](https://img.shields.io/badge/license-${answers.license}-blue.svg)
 
-  *1. [Project Description](#Description)
-  *2. [Installation](#Installation)
-  *3. [Usage](#Usage)
-  *4. [Credits](#Credits)
-  *5. [License](#License) 
+# ${answers.title.toUpperCase()}
 
+[![github-followers](https://img.shields.io/github/followers/${answers.username
+  
+  .toLowerCase()}?label=Follow&logoColor=yellow&style=social)](https://github.com/${answers.github.toLowerCase()})
+[![project-languages-used](https://img.shields.io/github/languages/count/${answers.github.toLowerCase()}/${answers.repositoryName}?color=important)](https://github.com/${answers.github.toLowerCase()}/${answers.repositoryName})
+[![project-top-language](https://img.shields.io/github/languages/top/${answers.github.toLowerCase()}/${answers.repositoryName}?color=blueviolet)](https://github.com/${answers.github.toLowerCase()}/${answers.repositoryName})
+[![license](https://img.shields.io/badge/License-${answers.license
+  .toUpperCase()
+  .split('-')
+  .join('v')}-brightgreen.svg)](https://choosealicense.com/licenses/${answers.license}/)
 
-  ### Project Description 
+####Version 
   
-  ${answers.description}
+${answers.version}
 
-  
-  #### User Story 
-  
-  ${answers.userStory}
-  
-  
-  ### Installation 
-  
-  ${answers.installation}
-  
-  
-  ### Command to Test 
-  
-  ${answers.test}
+## Table of Contents 
 
-  ### Usage
+* [Project Description](#Description)
+* [Installation](#Installation)
+* [Command to Test](#Test)
+* [Usage](#Usage)
+* [Credits](#Credits)
+* [License](#License) 
 
-  ${answers.usage}
+### Project Description 
+  
+${answers.description}
 
-  ### Credits
+#### User Story 
+  
+${answers.userStory}
+
+#### Project Links:
+
+*INSERT PROJECT LINKS HERE*
+
+#### Sample Images
+
+*INSERT SAMPLE IMAGES OF YOUR PROJECT HERE*
+  
+### Installation 
+  
+${answers.installation}
+  
+### Command to Test 
+  
+${answers.test}
+
+### Usage
+
+${answers.usage}
+
+### Credits
  
-  ${answers.credits}
+${answers.credits}
 
-
-  ### License
+### License
   
-  ${answers.license}
+${answers.license}
 
-  \n* [License](#license)\n
+\n* [License](#license)\n
 
 
-  <hr>
-  <p align='center'><i>
-  Please contact me for addtional information:
-  <br></br>
+<hr>
+<p align='center'><i>
+Please contact me for addtional information:
+
 
   GitHub User Name: ${answers.github}
   [GitHub Repo:](https://github.com/Nmenotti20/README_Generator.git)

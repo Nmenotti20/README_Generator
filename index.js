@@ -6,11 +6,26 @@ const generateMarkdown = require("./utils/generateMarkdown")
 
 // array of questions for user
 const questions = [
+    
+    // My Full Name
+    {
+    type: 'input',
+        name: 'myName',
+		message: 'Enter your first and last name',
+	},   
+
     // GitHub username
 {
     type: "input",
         name: "github",
         message: "What's your GITHUB USERNAME?"
+},
+
+{
+    // Github Repository Name
+    type: 'input',
+    message: 'Enter the name of Github repository for your project.',
+    name: 'repositoryName',
 },
 
     // Email
@@ -27,12 +42,47 @@ const questions = [
         message: "What's the TITLE of your project?"
 },
 
+   // Which version of the Project is this?
+   {
+    type: "input",
+        name: "version",
+        message: "Which version of the application is this?"
+},
+
     // Desciption of project
 {
     type: "input",
         name: "description",
         message: "Please provide a brief DESCRIPTION of your project?"
 },
+
+    // User Story
+    {
+        type: "input",
+            name: "userStory",
+            message: "Provide a USER STORY for this application?"
+    },
+    
+    // Command to initiate installation
+    {
+        type: "input",
+            name: "installation",
+            message: "What is the command to initiate INSTALLATION?"
+    },
+
+    // Instructions on how to use
+    {
+        type: "input",
+            name: "usage",
+            message: "Please provide instructions on how to use your project."
+    },
+    
+    // Command to initiate test
+    {
+        type: "input",
+            name: "test",
+            message: "What is the command to initiate a TEST?"
+    },
 
     // License
 {
@@ -42,46 +92,11 @@ const questions = [
         choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"]
 },
 
-    // Command to initiate installation
-{
-    type: "input",
-        name: "installation",
-        message: "What is the command to initiate INSTALLATION?"
-},
-
-    // Command to initiate test
-{
-    type: "input",
-        name: "test",
-        message: "What is the command to initiate a TEST?"
-},
-
-    // Instructions 
-{
-    type: "input",
-        name: "usage",
-        message: "Please provide instructions on how to use your project."
-},
-
     // How to contribute
 {
     type: "input",
         name: "contributor",
         message: "Tell other developers how they can contribute to this project."
-},
-
-    // User Story
-{
-    type: "input",
-        name: "userStory",
-        message: "Provide a USER STORY for this application?"
-},
-
-    // Which version
-{
-    type: "input",
-        name: "version",
-        message: "Which version of the application is this?"
 },
 ];
 
