@@ -1,8 +1,7 @@
 # README_Generator  
 
 [![github-follow](https://img.shields.io/github/followers/imbingz?label=Follow&logoColor=purple&style=social)](https://github.com/Nmenotti20)
-[![project-languages-used](https://img.shields.io/github/languages/count/imbingz/Github-Readme-Template?color=important)](https://github.com/Nmenotti20/README_Generator)
-[![project-top-language](https://img.shields.io/github/languages/top/imbingz/Github-Readme-Template?color=blueviolet)](https://github.com/Nmenotti20/README_Generator)
+[![project-top-language](https://img.shields.io/github/languages/top/imbingz/Github-Readme-Template?color=yellow)](https://github.com/Nmenotti20/README_Generator)
 [![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
   
 ##### Version 1.0
@@ -42,10 +41,9 @@ npm test
 
 This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 
-Copyright © 2020 [Nick Menotti](https://github.com/Nmenotti20)
-
 [![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
-  
-This project is [${answers.license.toUpperCase()}](https://choosealicense.com/licenses/${answers.license}/) licensed...
-  Copyright © ${year} [${answers.myName.trim().toUpperCase()}](https://github.com/${answers.github.trim().toLowerCase()})
+<hr>
+<p align='center'><i>
+Copyright © 2020 [Nick Menotti](https://github.com/Nmenotti20)
+</i></p>
