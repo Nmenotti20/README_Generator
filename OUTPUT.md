@@ -2,7 +2,7 @@
 
 # README_GENERATOR
 
-[![github-follow](https://img.shields.io/github/followers/undefined?label=Follow&logoColor=purple&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/README_Generator?color=yellow)](https://github.com/Nmenotti20/README_Generator) [![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/MIT/)
+[![github-follow](https://img.shields.io/github/followers/undefined?label=Follow&logoColor=purple&style=social)](https://github.com/Nmenotti20) [![project-top-language](https://img.shields.io/github/languages/top/Nmenotti20/README_Generator?color=yellow)](https://github.com/Nmenotti20/README_Generator) [![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 ##### Version 1.0
 
@@ -51,9 +51,9 @@ npm test
 
 ### License
 
-This project is [MIT](https://choosealicense.com/licenses/MIT) licensed.<br>
+This project is [mit](https://choosealicense.com/licenses/mit) licensed.<br>
 
-[![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://choosealicense.com/licenses/MIT/)
+[![license](https://img.shields.io/badge/License-mit-brightgreen.svg)](https://choosealicense.com/licenses/mit/)
 
 <hr>
 <p align='center'><i>
