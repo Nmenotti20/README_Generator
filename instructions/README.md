@@ -38,7 +38,11 @@ Navigate via command-line to the index.js file. From the command-line, input the
 
 Special thanks to the following resources that inspired this project:
 
-[How to Add Badges to a GitHub Repository](https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a), [DevMarketer](https://youtu.be/0WfDe51pUU0), [Programming with Mosh](https://youtu.be/PFmuCDHHpwk), [imbingz/Github-Readme-Template](https://github.com/imbingz/Github-Readme-Template), [Jruuuu/readmegen](https://github.com/Jruuuu/readmegen)
+[How to Add Badges to a GitHub Repository](https://medium.com/better-programming/add-badges-to-a-github-repository-716d2988dc6a)<br>
+[DevMarketer](https://youtu.be/0WfDe51pUU0)<br>
+[Programming with Mosh](https://youtu.be/PFmuCDHHpwk)<br>
+[imbingz/Github-Readme-Template](https://github.com/imbingz/Github-Readme-Template)<br>
+[Jruuuu/readmegen](https://github.com/Jruuuu/readmegen)
 
 ### Command to Test
 
